@@ -41,6 +41,13 @@ body {
   line-height: 1.7;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 main {
   max-width: 720px;
   margin: 0 auto;
