@@ -25,7 +25,10 @@ Anyways, here are some afterthoughts:
 
 {% endif %}
 
-- [{{ post.data.title }}]({{ post.url }}) — _{{ post.data.description }}_
+- [{{ post.data.title }}]({{ post.url }})
+  <span class="post-date">
+  {{ post.date | date: "%d %B" }}
+  </span>
 
 {% endfor %}
 
