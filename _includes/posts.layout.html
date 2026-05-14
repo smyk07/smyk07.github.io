@@ -8,8 +8,19 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
+    <a href="/"><- Back</a>
     <h1>{{ title }}</h1>
-    <em>{{ description }}</em>
+
+    {% assign day = date | date: "%-d" %}
+
+    <em>
+      {{ date | date: "%B" }} {{ day }}{% case day %} {% when '1' or '21' or
+      '31' %}st{% when '2' or '22' %}nd{% when '3' or '23' %}rd{% else %}th{%
+      endcase %}, {{ date | date: "%Y" }}
+    </em>
+
+    <br />
+    <p>{{ description }}</p>
     <hr />
 
     {{ content }}
