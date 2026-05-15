@@ -38,4 +38,4 @@ I'm Samyak, a Computer Engineering student from Mumbai, India. I'm interested in
 
 I like metalcore (Of Mice & Men, Erra, Polaris), rock (Crazy Town, Staind, Incubus), and sometimes house music (Prospa, Fred Again). Always open to talking about anything that interests me and exploring new things as well :)
 
-[GitHub](https://github.com/smyk07) | [e-mail](mailto:bambole@duck.com)
+[RSS](/feed.xml) | [GitHub](https://github.com/smyk07) | [e-mail](mailto:bambole@duck.com)
