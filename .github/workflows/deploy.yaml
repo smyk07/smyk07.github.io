@@ -31,12 +31,12 @@ jobs:
         run: bun install
 
       - name: Build site
-        run: bun run build
+        run: bunx @11ty/eleventy --config=.eleventy.mjs
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
   deploy:
     environment:

@@ -11,5 +11,6 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^3.0.0"
-  }
+  },
+  "type": "module"
 }
